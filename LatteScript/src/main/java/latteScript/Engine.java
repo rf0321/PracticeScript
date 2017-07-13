@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Engine {
+public class Engine {　//スクリプト言語エンジンのメイン部分クラス
     public Map<String, IOperator> operators = new HashMap<String, IOperator>();
     public Map<String, Object> variables = new HashMap<String, Object>();
 
